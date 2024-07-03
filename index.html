@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="splash__screen">
+            <div class="left"></div>
+            <div class="right">
+                <h1 class="percentage">0%</h1>
+            </div>
+            <div class="progress__bar"></div>
+
+            
+
+
+    </div>      
+        <canvas class="hero__canvas"></canvas>
+        <div id="home1"class="main__title">
+          
+            <div class="hero__text">
+                <h1>---------------------------Angel Herrera-Sanchez---------------------------</h1>
+                <div class="sub__title">
+                </div>             
+                <div class="separator"></div>
+            </div>      
+        </div>
+        
+        <nav class="navBar">
+            <ul class="sidebar">
+                <li class = "active"><a href="#">ANGEL</a></li>
+                <li style="float:right"><a href="#contact1">CONTACT</a></li>
+                <li style="float:right"><a href="#skills1">SKILLS</a></li>
+                <li style="float:right"><a href="#project1">PROJECTS</a></li>
+                <li style="float:right"><a href="#aboutMe2">ABOUT ME</a></li>
+                <li style="float:right"><a href="#home1">HOME</a></li>
+              </ul>
+        </nav>
+
+
+    
+    
+    <div class="About-me">
+        <h2 id="aboutMe2"><span>About</span> Me</h2>
+        <img alt="photo"src="https://blogs.mprnews.org/newscut/files/2017/03/18521356_1488681374.8829.jpg" class="center">
+        <p class="center2">My name is Angel Herrera-Sanchez, I'm a Mexican-American that was born and raised in Indianapolis. My parant are from Puebla, Mexico and so is the rest of my family. I have two siblings, one is named Gerardo and the other is named Blanca. There both in colege and attend Ball State, while they both want me to attend Ball State, I want to attend Purdue. While pursuing a Computer Science major. I also want to be a Software Engineer and perhaps own my own business in the tech industry. This is who I' am and I hope to accomplish these goals and perhaps exceed them.</p>
+    </div>
+
+
+        <div id ="project1" class="container">
+            <h2><span>My</span> Projects</h2>
+            <div class="cards">
+                <div class="card one">
+                    <div class="details">
+                        <div class="content">
+                            <h2>BuzzFeed Quiz</h2>
+                            <a href="https://angelhersan.github.io/Project-Unit-4/" class="button1">Start</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card two">
+                    <div class="details">
+                        <div class="content">
+                            <h2>Adventure Game</h2>
+                            <a href="https://angelhersan.github.io/Unit-2-project2/" class="button2">Start</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card three">
+                    <div class="details">
+                        <div class="content">
+                            <h2>Website</h2>
+                            <a href="https://50301159-4fe4-4ab3-868a-4dae72e8705e-00-1bomcq58yma0h.kirk.replit.dev/" class="button3">Start</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    <div id="skills1"class="skills">
+        <div class="container-2">
+            <div class="text">
+                <h2><span>My</span> Skills</h2>
+                <p>My Experince and skills in computer science</p>
+            </div>
+            
+            <div class="skill-card">
+                
+                <div class="card">
+                    <i class="fab fa-bitbucket"></i>
+                    <h4>Java</h4>
+                    <p>Programming language that allows you to implement complex features on web pages</p>
+                </div>
+                
+                <div class="card">
+                    <i class="fas fa-chart-line"></i>
+                    <h4>HTML</h4>  
+                    <p>The standard markup language for creating Web pages. HTML describes the structure of a Web page.</p>
+                </div>
+                
+                <div class="card">
+                    <i class="fas fa-file-code"></i>
+                    <h4>CSS</h4>
+                    <p>A computer language for laying out and structuring web pages.</p>
+                </div>
+            </div>
+
+            <section class="contact-page-section">
+                <div id="contact1"class="container-3">
+                    <div class="sec-title">
+                        <div class="title">Contact Me</div>
+                          <h2>Let's Get in Touch.</h2>
+                      </div>
+                      <div class="inner-container">
+                        <div class="row clearfix">
+                          
+                            <!--Form Column-->
+                              <div class="form-column col-md-8 col-sm-12 col-xs-12">
+                                <div class="inner-column">
+                                    
+                                      <!--Contact Form-->
+                                      <div class="contact-form">
+                                          <form method="post" action="sendemail.php" id="contact-form">
+                                              <div class="row clearfix">
+                                                  <div class="form-group col-md-6 col-sm-6 co-xs-12">
+                                                      <input type="text" name="name" value="" placeholder="Name" required>
+                                                  </div>
+                                                  <div class="form-group col-md-6 col-sm-6 co-xs-12">
+                                                      <input type="email" name="email" value="" placeholder="Email" required>
+                                                  </div>
+                                                  <div class="form-group col-md-6 col-sm-6 co-xs-12">
+                                                      <input type="text" name="subject" value="" placeholder="Subject" required>
+                                                  </div>
+                                                  <div class="form-group col-md-6 col-sm-6 co-xs-12">
+                                                      <input type="text" name="phone" value="" placeholder="Phone" required>
+                                                  </div>
+                                                  <div class="form-group col-md-12 col-sm-12 co-xs-12">
+                                                      <textarea name="message" placeholder="Massage"></textarea>
+                                                  </div>
+                                                  <div class="form-group col-md-12 col-sm-12 co-xs-12">
+                                                      <button type="submit" class="theme-btn btn-style-one">Send Now</button>
+                                                  </div>
+                                              </div>
+                                          </form>
+                                      </div>
+                                      <!--End Contact Form-->
+                                      
+                                  </div>
+                              </div>
+                              
+                        
+                              
+                          </div>
+                      </div>
+                  </div>
+              </section>
+
+              <div class="blobfishScreen">
+                <h1>Works Cited</h1>
+                <p>W3Schools Online Web Tutorials, https://www.w3schools.com/. Accessed 2 July 2024.</p>
+                <br>
+                <p>CodePen: Online Code Editor and Front End Web Developer Community, https://codepen.io/trending. Accessed 2 July 2024.</p>
+            </div>
+    
+            
+
+    <script type="module" src="/js/app.js"></script>
+</body>
+</html>
